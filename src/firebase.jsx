@@ -1,6 +1,5 @@
-import firebase from "firebase/app";
-import "firebase/auth";
-
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
 const app = firebase.initializeApp({
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
